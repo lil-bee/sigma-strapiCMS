@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "visions",
+  "info": {
+    "singularName": "vision",
+    "pluralName": "visions",
+    "displayName": "Vision"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "Our Visions"
+    },
+    "quote": {
+      "type": "text",
+      "default": "“To be a nationwide Integrated Project Logistics Top Of Mind.”"
+    }
+  }
+}

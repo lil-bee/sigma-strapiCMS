@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_footer_menus",
+  "info": {
+    "displayName": "Footer Menu",
+    "icon": "stack"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

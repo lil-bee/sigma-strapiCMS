@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_missions",
+  "info": {
+    "displayName": "mission",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "icon": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}
