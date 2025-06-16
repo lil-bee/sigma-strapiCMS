@@ -39,12 +39,7 @@
         }
       },
       "multiple": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "client": {
       "type": "string",
@@ -54,8 +49,8 @@
         }
       }
     },
-    "location": {
-      "type": "string",
+    "date": {
+      "type": "date",
       "pluginOptions": {
         "i18n": {
           "localized": true
