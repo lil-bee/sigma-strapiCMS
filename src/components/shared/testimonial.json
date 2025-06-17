@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_testimonials",
+  "info": {
+    "displayName": "Testimonial",
+    "icon": "emotionHappy"
+  },
+  "options": {},
+  "attributes": {
+    "testi": {
+      "type": "text"
+    },
+    "nama": {
+      "type": "string"
+    },
+    "jabatan": {
+      "type": "string"
+    },
+    "perusahaan": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

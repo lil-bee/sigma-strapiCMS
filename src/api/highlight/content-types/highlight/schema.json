@@ -39,7 +39,12 @@
         }
       },
       "multiple": false,
-      "allowedTypes": ["images", "files", "videos", "audios"]
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     },
     "client": {
       "type": "string",
@@ -66,6 +71,16 @@
       },
       "component": "shared.content",
       "repeatable": true
+    },
+    "Testimoni": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.testimonial",
+      "repeatable": false
     }
   }
 }

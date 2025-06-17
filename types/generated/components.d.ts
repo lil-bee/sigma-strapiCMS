@@ -111,6 +111,18 @@ export interface SharedServices extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedSlider extends Struct.ComponentSchema {
+  collectionName: 'components_shared_sliders';
+  info: {
+    description: '';
+    displayName: 'Slider';
+    icon: 'address-book';
+  };
+  attributes: {
+    files: Schema.Attribute.Media<'images', true>;
+  };
+}
+
 export interface SharedSocialLinks extends Struct.ComponentSchema {
   collectionName: 'components_shared_social_links';
   info: {
@@ -120,6 +132,20 @@ export interface SharedSocialLinks extends Struct.ComponentSchema {
   attributes: {
     platform: Schema.Attribute.String;
     url: Schema.Attribute.String;
+  };
+}
+
+export interface SharedTestimonial extends Struct.ComponentSchema {
+  collectionName: 'components_shared_testimonials';
+  info: {
+    displayName: 'Testimonial';
+    icon: 'emotionHappy';
+  };
+  attributes: {
+    jabatan: Schema.Attribute.String;
+    nama: Schema.Attribute.String;
+    perusahaan: Schema.Attribute.String;
+    testi: Schema.Attribute.Text;
   };
 }
 
@@ -134,7 +160,9 @@ declare module '@strapi/strapi' {
       'shared.quote': SharedQuote;
       'shared.rich-text': SharedRichText;
       'shared.services': SharedServices;
+      'shared.slider': SharedSlider;
       'shared.social-links': SharedSocialLinks;
+      'shared.testimonial': SharedTestimonial;
     }
   }
 }

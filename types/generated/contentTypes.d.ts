@@ -758,6 +758,12 @@ export interface ApiHighlightHighlight extends Struct.CollectionTypeSchema {
           localized: true;
         };
       }>;
+    Testimoni: Schema.Attribute.Component<'shared.testimonial', false> &
+      Schema.Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     title: Schema.Attribute.Text &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
